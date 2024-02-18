@@ -1,0 +1,103 @@
+.div1{
+    background-color: rgba(80, 219, 80, 0.418);
+}
+
+.div2{
+    background-color: rgba(70, 132, 226, 0.733)
+}
+
+h1{
+    text-align: center;
+}
+
+.pblue{
+    color: blue;
+}
+
+.pred{
+    color:red
+}
+
+.porange{
+    color:orange
+}
+
+.risco{
+    text-decoration: line-through;
+}
+
+.risco2{
+    text-decoration: underline;
+}
+
+.maius{
+    text-transform: capitalize
+}
+
+.capslock{
+    text-transform: uppercase;
+}
+
+.indent1{
+    text-indent: 50px ;
+}
+
+.indent2{
+    text-indent:100px ;
+}
+
+.line2{
+    line-height: 1.8;
+}
+
+.line3{
+    line-height: 2.5;
+}
+
+.mono{
+    font-family: Andale Mono, monospace;
+}
+
+.comic{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.brush{
+    font-family: 'Brush Script MT', cursive;
+}
+
+.papyrus{
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.lucida{
+    font-family: "Lucida Handwriting";
+}
+
+.italic{
+    font-style: italic ;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.xpeq{
+    font-size: x-small;
+}
+
+.peq{
+    font-size: small;
+}
+
+.med{
+    font-size: medium;
+}
+
+.lar{
+    font-size: large;
+}
+
+.xlar{
+    font-size: x-large;
+}

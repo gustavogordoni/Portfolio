@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+
+.div1{
+    border: solid 1vw black;
+    background-color: white;
+    width: 65%;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.div2{
+    border: solid 8px black;
+    background-color: white;
+    width: 1000px;
+    font-size: 20pt;
+
+}

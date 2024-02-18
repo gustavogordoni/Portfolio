@@ -1,0 +1,18 @@
+
+
+.d1{
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+    border: 3px black solid;
+    text-align: center;
+    display: inline-block;
+    margin: 2vw;
+}
+
+.d3{
+    background-color: rgb(194, 194, 194);
+    padding: 1vw 5vw;
+    width: 40%;
+    border: 3px solid gray;
+    
+}

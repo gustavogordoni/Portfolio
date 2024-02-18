@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(127, 255, 212, 0.233);
+}
+
+p{
+    color: red;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;    
+    height: 5vw;
+    
+}
+
+/*---------------------------------------------------------------------------------------- */
+
+.d1{
+    background-color: red;
+    width: 10%;
+}
+
+.d2{
+    background-color: orange;
+    width: 20%;
+}
+
+.d3{
+    background-color: yellow;
+    width: 30%; 
+}
+
+.d4{
+    background-color: green;
+    width: 40%;
+}
+
+.d5{
+    background-color: blue;
+    width: 50%;
+}
+
+.d6{
+    background-color:indigo;
+    width: 60%;
+}
+
+.d7{
+    background-color: blueviolet;
+    width: 70%;
+}
+
+
+
+

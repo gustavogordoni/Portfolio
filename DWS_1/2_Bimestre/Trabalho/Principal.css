@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+strong, h2, a{
+    color: rgb(228, 62, 62) ;
+}
+
+
+caption, h1, h3{
+    color: red;
+}
+
+
+mark{
+    background-color: rgb(228, 62, 62);
+    color: black;
+}
+
+
+.apx, figcaption{
+    text-align: center;  
+}
+
+
+table{
+    color: white;
+    margin: 0 auto;
+    background-color: black
+}
+td{   
+    padding: 30px 50px;  
+}
+
+
+#table2{
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+    border: 2px outset rgb(228, 62, 62);
+}
+#td2{   
+    padding: 10px 75px;
+    border: 1px outset rgb(228, 62, 62);
+    text-align: center;  
+}
+
+.div1{    
+    border: 2px outset darkred
+
+}
+
+.div2{
+    border: 3px outset rgb(228, 62, 62) ;
+    background-color: black;
+}
+
+
+
+img{
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+.lendas{
+    color: red;
+    text-align: center;
+
+}
+
+#retornar{
+    color: darkorchid;
+}
+
+
+
+
+
+

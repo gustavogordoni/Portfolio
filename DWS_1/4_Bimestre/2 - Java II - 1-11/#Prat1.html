@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 1</title>
+    <script src="Prat1.js"></script>
+
+    <style>
+
+        .d{
+            display: flex;
+            justify-content: space-around;
+            border: none;
+            width: auto;
+            height: auto;
+        }
+      
+
+        div{
+            width: 7vw;
+            height: 7vw;
+            border: solid 5px black;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2vw;
+            
+        }
+        
+        .d1{
+            background-color: red;
+        }
+
+        .d2{
+            background-color: green;
+        }
+
+        .d3{
+            background-color: blue;
+        }
+
+        .d4{
+            background-color: darkorange;
+        }
+
+        .d5{
+            background-color: darkmagenta;
+        }
+    </style>
+
+</head>
+   
+<body>
+    <h1>Praticando 1 - Java</h1>
+
+    <h3>Obs. Usar flexbox para posicionar os quadrados.</h3>
+
+    <div class="d">
+    <div class="d1" onmouseover = "alterar('red')" onmouseout = "remover('white')"></div>
+    <div class="d2" onmouseover = "alterar('green')" onmouseout = "remover('white')"></div>
+    <div class="d3" onmouseover = "alterar('blue')" onmouseout = "remover('white')"></div>
+    <div class="d4" onmouseover = "alterar('orange')" onmouseout = "remover('white')"></div>
+    <div class="d5" onmouseover = "alterar('purple')" onmouseout = "remover('white')"></div>    
+    </div>
+
+</body>
+</html>

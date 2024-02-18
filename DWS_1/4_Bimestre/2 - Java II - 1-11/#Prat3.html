@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 3</title>
+    <script src="Prat3.js"></script>
+</head>
+<body>
+
+    <style>
+        .flex{
+            display: flex;
+            justify-content: space-around;
+
+            width: auto;
+            height: auto;
+            margin-top: 1vw;
+        }
+
+        img{
+            width: 18vw;
+            height: 10vw;   
+        }
+
+        .d1{
+            margin: 3vw 0 3vw 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .img{
+            width: 36vw;
+            height: 20vw; 
+            visibility: hidden;
+        }
+
+        p{
+            visibility: hidden;
+            line-height: 0;
+            margin-left: 0.5vw;
+            margin-top: 1vw;
+        }
+
+       
+    </style>
+
+    <h1>Praticando 3 - JavaScript</h1>
+    <h3>Obs. Usar flexbox para posicionar as imagens</h3>
+
+    <div class="flex">
+    <img onclick="imgZoom('img1.jpg')" src="img1.jpg" alt="Cachorro da raça Border Collie">
+    <img onclick="imgZoom('img2.jpg')" src="img2.jpg" alt="Cachorro da raça Border Collie">
+    <img onclick="imgZoom('img3.jpg')" src="img3.jpg" alt="Cachorro da raça Border Collie">
+    <img onclick="imgZoom('img5.jpg')" src="img5.jpg" alt="Cachorro da raça Border Collie com óculos, em uma rede">
+    </div>
+
+    <div class= "d1"> 
+        <img class="img" src="" alt="">
+        <p class="x" style="font-size: xx-large;" onclick="remover()">X</p>
+    </div>
+    
+</body>
+</html>

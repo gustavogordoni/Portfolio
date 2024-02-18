@@ -1,0 +1,27 @@
+img{
+    width: 8vw;
+}
+
+.d1{
+    background-color: blue;
+   
+    display: flex;
+    flex-flow: column-reverse;
+    
+    margin-right: 3vw;
+
+    height: 42vw;
+}
+
+.d2{
+    background-color: blue;
+   
+    display: flex;
+    flex-flow: column;
+    
+    height: 42vw;
+}
+
+.d3{
+    display: flex;
+}

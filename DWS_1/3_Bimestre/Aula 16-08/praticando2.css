@@ -1,0 +1,32 @@
+.div1{
+    border-style: dotted;
+    border-color: green;
+    background-color: rgba(0, 128, 0, 0.534);
+    border-width: 6px;
+}
+
+.div2{
+    border-style: double;
+    border-color: black;
+    background-color: gray;
+    border-width: 6px;
+}
+
+.div3{
+    border-style: dashed;
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.438);
+    border-width: 6px;
+}
+
+.div4{
+    border-style: solid;
+    border-color: blue;
+    background-color: rgba(0, 0, 255, 0.459);
+    border-width: 6px;
+}
+
+
+
+
+

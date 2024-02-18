@@ -1,0 +1,22 @@
+body{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fr{
+    float: right;
+    margin: 20px;
+    margin-right: none;
+}
+
+.fl{
+    float: left;
+    margin: 20px;
+    margin-left: none;
+    margin-top: none;
+}
+
+div{
+    margin-bottom: 2%;
+}

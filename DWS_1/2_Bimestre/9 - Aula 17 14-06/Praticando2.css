@@ -1,0 +1,42 @@
+table, tr, td, th{
+    border: solid 1px #000;
+
+
+}
+
+td,th{
+    padding: 4px 20px;
+    text-align: center;
+
+}
+
+.red{
+    background-color: red;
+}
+.red2{
+    background-color: #b30000;
+}
+.red3{
+    background-color: #660000;
+}
+
+.green{
+    background-color: green;
+}
+
+.green2{
+    background-color: #99ff99;
+}
+.green3{
+    background-color: #004d00;
+}
+.blue{
+    background-color: blue;
+}
+.blue2{
+    background-color: #ccccff;
+}
+.blue3{
+    background-color: #000066;
+}
+

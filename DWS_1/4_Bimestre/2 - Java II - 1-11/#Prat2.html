@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 2</title>
+    <script src="Prat2.js"></script>
+    
+    <style>
+        div{
+            border: 0.6vw rgb(128,128,128) solid;
+        }
+
+        .flex{
+            display: flex;
+            justify-content: center;
+            border: none;
+        }
+
+        .d1{
+            user-select: none;   
+            padding: 1vw;
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+        }
+
+        #texto{
+            padding: 1vw;
+            width: 50%;
+        }
+
+        button{
+            margin: 0.5vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Praticando 2 - JavaScript</h1>
+
+    <div class="flex">    
+        <div class="d1">
+            <button onclick="addParag()">Adicionar UM parágrafo</button>
+            <button onclick="remParag()">Remover UM parágrafo</button>
+            <button onclick="tdsParag()">Remover TODOS parágrafos</button>   
+        </div>
+         <div id="texto"></div>
+    </div>
+</body>
+</html>

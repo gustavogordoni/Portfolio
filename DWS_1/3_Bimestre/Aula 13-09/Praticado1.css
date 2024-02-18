@@ -1,0 +1,17 @@
+div{
+    border: solid 3px black;
+    text-indent: 30px;
+    margin: 0 3% 0 3%;
+    padding: 0 20px 0 20px;
+
+}
+strong{
+    text-decoration: underline;
+}
+.p1{
+    text-indent: 0;
+}
+
+body{
+    margin: 1,5%;
+}

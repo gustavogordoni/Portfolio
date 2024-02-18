@@ -1,0 +1,42 @@
+div{
+    display: inline-block;
+}
+
+.d2{
+    float: right;
+}
+
+.d1{
+    background-color: rgba(73, 193, 214, 0.527);
+    border: solid 2px blue;
+    
+    text-align: center;
+    margin: 2vw 2.5vw 5vw 2.5vw;
+
+    width: 7vw;
+    height: 7vw;
+
+    font-size: 5vw;
+    text-align: center;
+}
+
+.d2{
+    float: right;
+}
+
+.cir{
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    background-color: black;
+
+    margin: 0 0.3vw 0 0.3vw; 
+
+    position: relative;
+    top: 2.4vw;
+}
+
+
+
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 3</title>
+    <script src="Prat3.js"></script>
+
+    <style>
+        .flex{
+            display: flex;
+            justify-content: space-around;
+            margin: 2vw 2vw 2vw 0;
+        }
+
+        img{
+            width: 20%;
+            height: 20%;
+        }
+        .img{
+            width: 7%;
+            height: 5%;
+        }
+
+        .d1{
+            border: solid 3px black;
+            width: 5vw;
+            height: 5vw;
+            margin: 1vw 1vw 1vw 1vw;
+
+            font-size: 4vw;
+            text-align: center;
+        }
+
+        #altErrar{
+            display: flex;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Praticando 3 - Java Script - Layouts com flex direction e click do mouse </h1>
+     
+    <div class="flex">
+        <img src="row.png" onclick="linhaColuna('row')">
+        <img src="row-reverse.png" onclick="linhaColuna('row-reverse')">
+        <img class="img" src="column.png" onclick="linhaColuna('column')">
+        <img class="img" src="column-reverse.png"  onclick="linhaColuna('column-reverse')">
+    </div>
+
+    <div id="altErrar">
+    <div class="d1">1</div>
+    <div class="d1">2</div>
+    <div class="d1">3</div>
+    <div class="d1">4</div>
+    <div class="d1">5</div>
+    </div>
+
+</body>    
+</html>
